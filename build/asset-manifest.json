@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-blended-ReactRouter/static/css/main.ca38f9fc.css",
+    "main.js": "/react-blended-ReactRouter/static/js/main.c9473cfc.js",
+    "index.html": "/react-blended-ReactRouter/index.html",
+    "main.ca38f9fc.css.map": "/react-blended-ReactRouter/static/css/main.ca38f9fc.css.map",
+    "main.c9473cfc.js.map": "/react-blended-ReactRouter/static/js/main.c9473cfc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca38f9fc.css",
+    "static/js/main.c9473cfc.js"
+  ]
+}

@@ -1,14 +1,15 @@
 import { useState, useEffect } from 'react';
-import * as eventsAPI from '../services/api';
 import { Link, Outlet, useLocation } from 'react-router-dom';
+import * as eventsApi from '../services/api';
+
 export const EventsView = () => {
   const [events, setEvents] = useState(null);
   const location = useLocation();
-  console.log(location);
+  console.log('location on Events:', location);
+
   useEffect(() => {
     try {
-      const res = eventsAPI.fetchEvents().then(setEvents);
-      console.log(res);
+      eventsApi.fetchEvents().then(setEvents);
     } catch (error) {
       console.log(error);
     }

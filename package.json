@@ -1,24 +1,23 @@
 {
   "name": "react-blended-routing",
   "version": "0.1.0",
-  "homepage": "https://Ye2212.github.io/react-blended-routing/",
   "private": true,
+  "homepage": "https://Ye2212.github.io/react-blended-routing/",
   "dependencies": {
-    "@emotion/react": "^11.9.0",
+    "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
-    "@testing-library/jest-dom": "^5.16.3",
-    "@testing-library/react": "^12.1.4",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
-    "axios": "^0.26.1",
+    "axios": "^0.27.2",
+    "gh-pages": "^3.2.3",
+    "nanoid": "^3.3.1",
     "prop-types": "^15.8.1",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
-    "react-loader-spinner": "^6.0.0-0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.0",
-    "react-scroll": "^1.8.7",
-    "react-toastify": "^8.2.0",
     "web-vitals": "^2.1.3"
   },
   "scripts": {
@@ -28,7 +27,7 @@
     "eject": "react-scripts eject",
     "lint:js": "eslint src/**/*.{js,jsx}",
     "predeploy": "npm run build",
-    "deploy": "netlify deploy -p"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -47,17 +46,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "**Read in other languages: [Русский](README.md), [Polska](README.pl.md).**",
-  "main": "index.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ye2212/react-blended-routing.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Ye2212/react-blended-routing/issues"
   }
 }

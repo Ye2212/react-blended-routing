@@ -1,14 +1,15 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import * as eventsAPI from '../services/api';
-const useFetchEvent = () => {
+import * as eventsApi from '../services/api';
+
+export const useFetchEvent = () => {
   const [event, setEvent] = useState(null);
   const { eventsId } = useParams();
+  console.log(eventsId);
 
   useEffect(() => {
-    eventsAPI.fetchEventsByID(eventsId).then(setEvent);
+    eventsApi.fetchEventsByID(eventsId).then(setEvent);
   }, [eventsId]);
-  console.log(event);
+
   return event;
 };
-export default useFetchEvent;

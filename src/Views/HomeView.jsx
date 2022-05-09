@@ -1,3 +1,3 @@
 export const HomeView = () => {
-  return <h1>Hello World</h1>;
+  return <h1>Helo World</h1>;
 };
